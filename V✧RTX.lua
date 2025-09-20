@@ -1418,7 +1418,7 @@ function UILIB:Load(name, img, direction)
 		for i,v in pairs(parent:GetChildren()) do
 			if v:IsA("GuiObject") then
 				pcall(function()
-					if v.BackgroundColor3 == Color3.fromRGB(220, 20, 60), then
+					if v.BackgroundColor3 == Color3.fromRGB(220, 20, 60) then
 						v.BackgroundColor3 = color
 						GlobalColor1 = color
 					elseif v.BackgroundColor3 == Color3.fromRGB(220, 20, 60) then
