@@ -263,9 +263,9 @@ DRR["21"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.f
 -- V✧RTX.TopBar.TopBarClose.idk
 DRR["22"] = Instance.new("Frame", DRR["1f"]);
 DRR["22"]["BorderSizePixel"] = 0;
-DRR["22"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
+DRR["22"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["22"]["Size"] = UDim2.new(0.2622910141944885, 0, 1, 0);
-DRR["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+DRR["22"]["BorderColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["22"]["Position"] = UDim2.new(0.000002001152552111307, 0, 0, 0);
 DRR["22"]["Name"] = [[idk]];
 
@@ -300,7 +300,7 @@ DRR["27"]["AspectRatio"] = 5.724700927734375;
 -- V✧RTX.MainBar
 DRR["28"] = Instance.new("Frame", DRR["1"]);
 DRR["28"]["BorderSizePixel"] = 0;
-DRR["28"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
+DRR["28"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["28"]["Size"] = UDim2.new(0.5404488444328308, 0, 0.5745577812194824, 0);
 DRR["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["28"]["Position"] = UDim2.new(0.23000000417232513, 0, -0.6119999885559082, 0);
