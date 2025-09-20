@@ -404,7 +404,7 @@ DRR["34"]["CornerRadius"] = UDim.new(0.30000001192092896, 0);
 -- V✧RTX.Folder.TabButtonReserved.Frame
 DRR["35"] = Instance.new("Frame", DRR["33"]);
 DRR["35"]["BorderSizePixel"] = 0;
-DRR["35"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+DRR["35"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["35"]["BackgroundTransparency"] = 1;
 DRR["35"]["LayoutOrder"] = 1;
 DRR["35"]["Size"] = UDim2.new(0.6113507151603699, 0, 1.0000001192092896, 0);
@@ -417,7 +417,7 @@ DRR["36"] = Instance.new("TextLabel", DRR["35"]);
 DRR["36"]["TextWrapped"] = true;
 DRR["36"]["BorderSizePixel"] = 0;
 DRR["36"]["TextScaled"] = true;
-DRR["36"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+DRR["36"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["36"]["FontFace"] = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 DRR["36"]["TextSize"] = 14;
 DRR["36"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
