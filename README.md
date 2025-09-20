@@ -7,13 +7,13 @@ Introducing the V✧RTX UI Library, a Roblox Exploit UI Library created just for
 To begin, you need to declare a variable to access the library.
 
 ```lua
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/milo22-ux/Ui/refs/heads/main/V%E2%9C%A7RTX.lua"))()
+local VortexLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/milo22-ux/Ui/refs/heads/main/V%E2%9C%A7RTX.lua"))()
 ```
 
 To load the UI, simply call the function:
 
 ```lua
-local window = V✧RTXLibrary:Load("V✧RTX", "default")
+local window = VortexLibrary:Load("V✧RTX", "default")
 ```
 
 **Argument 1: Name of your UI (type: `string`)**
@@ -29,7 +29,7 @@ We provide pre-made features for your convenience.
 You can create multiple tabs to organize your features.
 
 ```lua
-local tab = V✧RTXLibrary.newTab("My Tab", "ImageIdHere")
+local tab = VortexXLibrary.newTab("My Tab", "ImageIdHere")
 ```
 
 **Argument 1: Name of your tab (type: `string`)**
