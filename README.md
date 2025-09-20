@@ -1,23 +1,19 @@
-# DrRay UI Library
+# V✧RTX UI Library
 
-Introducing the DrRay UI Library, a Roblox Exploit UI Library created just for fun! Feel free to modify it as you wish, and using our library has already helped us a lot! You can check out an example code [here](./Example.lua).
-
-[Source Code](./V✧RTX ui source)
-
-[Actual Source (Rbxm)](./ActualSource) (LOST.)
+Introducing the V✧RTX UI Library, a Roblox Exploit UI Library created just for fun! Feel free to modify it as you wish, and using our library has already helped us a lot!
 
 ## Getting Started
 
 To begin, you need to declare a variable to access the library.
 
 ```lua
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local DrRayLibrary = loadstring(game:HttpGet(""))()
 ```
 
 To load the UI, simply call the function:
 
 ```lua
-local window = DrRayLibrary:Load("DrRay", "Default")
+local window = DrRayLibrary:Load("V✧RTX", "Default")
 ```
 
 **Argument 1: Name of your UI (type: `string`)**
