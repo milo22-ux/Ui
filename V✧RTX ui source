@@ -260,7 +260,7 @@ DRR["21"] = Instance.new("UIGradient", DRR["1f"]);
 DRR["21"]["Rotation"] = 90;
 DRR["21"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(117, 117, 117)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(218, 218, 218))};
 
--- DrRay.TopBar.TopBarClose.idk
+-- V✧RTX.TopBar.TopBarClose.idk
 DRR["22"] = Instance.new("Frame", DRR["1f"]);
 DRR["22"]["BorderSizePixel"] = 0;
 DRR["22"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
@@ -269,16 +269,16 @@ DRR["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["22"]["Position"] = UDim2.new(0.000002001152552111307, 0, 0, 0);
 DRR["22"]["Name"] = [[idk]];
 
--- DrRay.TopBar.TopBarClose.idk.UIGradient
+-- V✧RTX.TopBar.TopBarClose.idk.UIGradient
 DRR["23"] = Instance.new("UIGradient", DRR["22"]);
 DRR["23"]["Rotation"] = 90;
 DRR["23"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(117, 117, 117)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(218, 218, 218))};
 
--- DrRay.TopBar.TopBarClose.UIAspectRatioConstraint
+-- V✧RTX.TopBar.TopBarClose.UIAspectRatioConstraint
 DRR["24"] = Instance.new("UIAspectRatioConstraint", DRR["1f"]);
 
 
--- DrRay.TopBar.TopBarClose.ImageLabel
+-- V✧RTX.TopBar.TopBarClose.ImageLabel
 DRR["25"] = Instance.new("ImageLabel", DRR["1f"]);
 DRR["25"]["BorderSizePixel"] = 0;
 DRR["25"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -289,15 +289,15 @@ DRR["25"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["25"]["BackgroundTransparency"] = 1;
 DRR["25"]["Position"] = UDim2.new(0.24589963257312775, 0, 0.23339086771011353, 0);
 
--- DrRay.TopBar.TopBarClose.ImageLabel.UIAspectRatioConstraint
+-- V✧RTX.TopBar.TopBarClose.ImageLabel.UIAspectRatioConstraint
 DRR["26"] = Instance.new("UIAspectRatioConstraint", DRR["25"]);
 DRR["26"]["AspectRatio"] = 0.9836804866790771;
 
--- DrRay.TopBar.UIAspectRatioConstraint
+-- V✧RTX.TopBar.UIAspectRatioConstraint
 DRR["27"] = Instance.new("UIAspectRatioConstraint", DRR["2"]);
 DRR["27"]["AspectRatio"] = 5.724700927734375;
 
--- DrRay.MainBar
+-- V✧RTX.MainBar
 DRR["28"] = Instance.new("Frame", DRR["1"]);
 DRR["28"]["BorderSizePixel"] = 0;
 DRR["28"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
@@ -306,20 +306,20 @@ DRR["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["28"]["Position"] = UDim2.new(0.23000000417232513, 0, -0.6119999885559082, 0);
 DRR["28"]["Name"] = [[MainBar]];
 
--- DrRay.MainBar.UICorner
+-- V✧RTX.MainBar.UICorner
 DRR["29"] = Instance.new("UICorner", DRR["28"]);
 DRR["29"]["CornerRadius"] = UDim.new(0.029999999329447746, 0);
 
--- DrRay.MainBar.UIGradient
+-- V✧RTX.MainBar.UIGradient
 DRR["2a"] = Instance.new("UIGradient", DRR["28"]);
 DRR["2a"]["Rotation"] = 90;
 DRR["2a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(90, 90, 90)),ColorSequenceKeypoint.new(0.231, Color3.fromRGB(154, 154, 154)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.MainBar.UIAspectRatioConstraint
+-- V✧RTX.MainBar.UIAspectRatioConstraint
 DRR["2b"] = Instance.new("UIAspectRatioConstraint", DRR["28"]);
 DRR["2b"]["AspectRatio"] = 1.7326968908309937;
 
--- DrRay.MainBar.DropShadowHolder
+-- V✧RTX.MainBar.DropShadowHolder
 DRR["2c"] = Instance.new("Frame", DRR["28"]);
 DRR["2c"]["ZIndex"] = 0;
 DRR["2c"]["BorderSizePixel"] = 0;
@@ -328,7 +328,7 @@ DRR["2c"]["LayoutOrder"] = -1;
 DRR["2c"]["Size"] = UDim2.new(1, 0, 1, 0);
 DRR["2c"]["Name"] = [[DropShadowHolder]];
 
--- DrRay.MainBar.DropShadowHolder.DropShadow
+-- V✧RTX.MainBar.DropShadowHolder.DropShadow
 DRR["2d"] = Instance.new("ImageLabel", DRR["2c"]);
 DRR["2d"]["ZIndex"] = 0;
 DRR["2d"]["BorderSizePixel"] = 0;
@@ -343,7 +343,7 @@ DRR["2d"]["Name"] = [[DropShadow]];
 DRR["2d"]["BackgroundTransparency"] = 1;
 DRR["2d"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
--- DrRay.MainBar.Logo
+-- V✧RTX.MainBar.Logo
 DRR["2e"] = Instance.new("ImageLabel", DRR["28"]);
 DRR["2e"]["BorderSizePixel"] = 0;
 DRR["2e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -354,16 +354,16 @@ DRR["2e"]["Name"] = [[Logo]];
 DRR["2e"]["BackgroundTransparency"] = 1;
 DRR["2e"]["Position"] = UDim2.new(0.3991934061050415, 0, 0.33447495102882385, 0);
 
--- DrRay.MainBar.Logo.UIGradient
+-- V✧RTX.MainBar.Logo.UIGradient
 DRR["2f"] = Instance.new("UIGradient", DRR["2e"]);
 DRR["2f"]["Rotation"] = 90;
 DRR["2f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(5, 6, 23))};
 
--- DrRay.Folder
+-- V✧RTX.Folder
 DRR["30"] = Instance.new("Folder", DRR["1"]);
 
 
--- DrRay.Folder.TabReserved
+-- V✧RTX.Folder.TabReserved
 DRR["31"] = Instance.new("ScrollingFrame", DRR["30"]);
 DRR["31"]["Active"] = true;
 DRR["31"]["BorderSizePixel"] = 0;
@@ -380,13 +380,13 @@ DRR["31"]["Position"] = UDim2.new(0, 0, 0.03999999910593033, 0);
 DRR["31"]["Visible"] = false;
 DRR["31"]["Name"] = [[TabReserved]];
 
--- DrRay.Folder.TabReserved.UIListLayout
+-- V✧RTX.Folder.TabReserved.UIListLayout
 DRR["32"] = Instance.new("UIListLayout", DRR["31"]);
 DRR["32"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
 DRR["32"]["Padding"] = UDim.new(0.014999999664723873, 0);
 DRR["32"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
--- DrRay.Folder.TabButtonReserved
+-- V✧RTX.Folder.TabButtonReserved
 DRR["33"] = Instance.new("ImageButton", DRR["30"]);
 DRR["33"]["BorderSizePixel"] = 0;
 DRR["33"]["AutoButtonColor"] = false;
@@ -397,11 +397,11 @@ DRR["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["33"]["Visible"] = false;
 DRR["33"]["Position"] = UDim2.new(0.015000020153820515, 0, 0.18421050906181335, 0);
 
--- DrRay.Folder.TabButtonReserved.UICorner
+-- V✧RTX.Folder.TabButtonReserved.UICorner
 DRR["34"] = Instance.new("UICorner", DRR["33"]);
 DRR["34"]["CornerRadius"] = UDim.new(0.30000001192092896, 0);
 
--- DrRay.Folder.TabButtonReserved.Frame
+-- V✧RTX.Folder.TabButtonReserved.Frame
 DRR["35"] = Instance.new("Frame", DRR["33"]);
 DRR["35"]["BorderSizePixel"] = 0;
 DRR["35"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -412,7 +412,7 @@ DRR["35"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["35"]["Position"] = UDim2.new(0.26662877202033997, 0, -4.950767973355141e-08, 0);
 DRR["35"]["AutomaticSize"] = Enum.AutomaticSize.X;
 
--- DrRay.Folder.TabButtonReserved.Frame.TextLabel
+-- V✧RTX.Folder.TabButtonReserved.Frame.TextLabel
 DRR["36"] = Instance.new("TextLabel", DRR["35"]);
 DRR["36"]["TextWrapped"] = true;
 DRR["36"]["BorderSizePixel"] = 0;
@@ -428,19 +428,19 @@ DRR["36"]["Text"] = [[Tab1]];
 DRR["36"]["BackgroundTransparency"] = 1;
 DRR["36"]["Position"] = UDim2.new(-1.2657674551010132, 0, 0.37021857500076294, 0);
 
--- DrRay.Folder.TabButtonReserved.Frame.UIListLayout
+-- V✧RTX.Folder.TabButtonReserved.Frame.UIListLayout
 DRR["37"] = Instance.new("UIListLayout", DRR["35"]);
 DRR["37"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
 DRR["37"]["FillDirection"] = Enum.FillDirection.Horizontal;
 DRR["37"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
 DRR["37"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
--- DrRay.Folder.TabButtonReserved.UIGradient
+-- V✧RTX.Folder.TabButtonReserved.UIGradient
 DRR["38"] = Instance.new("UIGradient", DRR["33"]);
 DRR["38"]["Rotation"] = 90;
 DRR["38"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(154, 154, 154)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(231, 231, 231))};
 
--- DrRay.Folder.TabButtonReserved.ImageLabel
+-- V✧RTX.Folder.TabButtonReserved.ImageLabel
 DRR["39"] = Instance.new("ImageLabel", DRR["33"]);
 DRR["39"]["BorderSizePixel"] = 0;
 DRR["39"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -449,21 +449,21 @@ DRR["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["39"]["BackgroundTransparency"] = 1;
 DRR["39"]["Position"] = UDim2.new(0.1134648397564888, 0, 0.19672130048274994, 0);
 
--- DrRay.Folder.TabButtonReserved.ImageLabel.UIAspectRatioConstraint
+-- V✧RTX.Folder.TabButtonReserved.ImageLabel.UIAspectRatioConstraint
 DRR["3a"] = Instance.new("UIAspectRatioConstraint", DRR["39"]);
 DRR["3a"]["AspectRatio"] = 0.9842342734336853;
 
--- DrRay.Folder.TabButtonReserved.UIListLayout
+-- V✧RTX.Folder.TabButtonReserved.UIListLayout
 DRR["3b"] = Instance.new("UIListLayout", DRR["33"]);
 DRR["3b"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
 DRR["3b"]["FillDirection"] = Enum.FillDirection.Horizontal;
 DRR["3b"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
--- DrRay.Folder.TabButtonReserved.UIPadding
+-- V✧RTX.Folder.TabButtonReserved.UIPadding
 DRR["3c"] = Instance.new("UIPadding", DRR["33"]);
 DRR["3c"]["PaddingLeft"] = UDim.new(0.10999999940395355, 0);
 
--- DrRay.Folder.Dropdown
+-- V✧RTX.Folder.Dropdown
 DRR["3d"] = Instance.new("Frame", DRR["30"]);
 DRR["3d"]["BorderSizePixel"] = 0;
 DRR["3d"]["BackgroundColor3"] = Color3.fromRGB(40, 45, 62);
@@ -475,16 +475,16 @@ DRR["3d"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 DRR["3d"]["Visible"] = false;
 DRR["3d"]["Name"] = [[Dropdown]];
 
--- DrRay.Folder.Dropdown.UICorner
+-- V✧RTX.Folder.Dropdown.UICorner
 DRR["3e"] = Instance.new("UICorner", DRR["3d"]);
 DRR["3e"]["CornerRadius"] = UDim.new(0.03999999910593033, 0);
 
--- DrRay.Folder.Dropdown.UIGradient
+-- V✧RTX.Folder.Dropdown.UIGradient
 DRR["3f"] = Instance.new("UIGradient", DRR["3d"]);
 DRR["3f"]["Rotation"] = 90;
 DRR["3f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(89, 89, 89)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(139, 139, 139))};
 
--- DrRay.Folder.Dropdown.Title
+-- V✧RTX.Folder.Dropdown.Title
 DRR["40"] = Instance.new("TextLabel", DRR["3d"]);
 DRR["40"]["TextWrapped"] = true;
 DRR["40"]["BorderSizePixel"] = 0;
@@ -501,7 +501,7 @@ DRR["40"]["Name"] = [[Title]];
 DRR["40"]["BackgroundTransparency"] = 1;
 DRR["40"]["Position"] = UDim2.new(0.017191976308822632, 0, 0.10911344736814499, 0);
 
--- DrRay.Folder.Dropdown.Description
+-- V✧RTX.Folder.Dropdown.Description
 DRR["41"] = Instance.new("TextLabel", DRR["3d"]);
 DRR["41"]["TextWrapped"] = true;
 DRR["41"]["BorderSizePixel"] = 0;
@@ -518,7 +518,7 @@ DRR["41"]["Name"] = [[Description]];
 DRR["41"]["BackgroundTransparency"] = 1;
 DRR["41"]["Position"] = UDim2.new(0.011461317539215088, 0, 0.7547013759613037, 0);
 
--- DrRay.Folder.Dropdown.DropdownBar
+-- V✧RTX.Folder.Dropdown.DropdownBar
 DRR["42"] = Instance.new("Frame", DRR["3d"]);
 DRR["42"]["BorderSizePixel"] = 0;
 DRR["42"]["BackgroundColor3"] = Color3.fromRGB(40, 45, 62);
@@ -528,20 +528,20 @@ DRR["42"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["42"]["Position"] = UDim2.new(0.014326647855341434, 0, 0.34552592039108276, 0);
 DRR["42"]["Name"] = [[DropdownBar]];
 
--- DrRay.Folder.Dropdown.DropdownBar.UICorner
+-- V✧RTX.Folder.Dropdown.DropdownBar.UICorner
 DRR["43"] = Instance.new("UICorner", DRR["42"]);
 DRR["43"]["CornerRadius"] = UDim.new(0.20000000298023224, 0);
 
--- DrRay.Folder.Dropdown.DropdownBar.UIGradient
+-- V✧RTX.Folder.Dropdown.DropdownBar.UIGradient
 DRR["44"] = Instance.new("UIGradient", DRR["42"]);
 DRR["44"]["Rotation"] = 90;
 DRR["44"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(117, 117, 117)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.Folder.Dropdown.DropdownBar.UIStroke
+-- V✧RTX.Folder.Dropdown.DropdownBar.UIStroke
 DRR["45"] = Instance.new("UIStroke", DRR["42"]);
 DRR["45"]["Color"] = Color3.fromRGB(40, 45, 62);
 
--- DrRay.Folder.Dropdown.DropdownBar.Icon
+-- V✧RTX.Folder.Dropdown.DropdownBar.Icon
 DRR["46"] = Instance.new("ImageLabel", DRR["42"]);
 DRR["46"]["BorderSizePixel"] = 0;
 DRR["46"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -553,11 +553,11 @@ DRR["46"]["Rotation"] = 180;
 DRR["46"]["BackgroundTransparency"] = 1;
 DRR["46"]["Position"] = UDim2.new(0.9589999914169312, 0, 0.21899999678134918, 0);
 
--- DrRay.Folder.Dropdown.DropdownBar.Icon.UIAspectRatioConstraint
+-- V✧RTX.Folder.Dropdown.DropdownBar.Icon.UIAspectRatioConstraint
 DRR["47"] = Instance.new("UIAspectRatioConstraint", DRR["46"]);
 
 
--- DrRay.Folder.Dropdown.DropdownBar.Open
+-- V✧RTX.Folder.Dropdown.DropdownBar.Open
 DRR["48"] = Instance.new("TextLabel", DRR["42"]);
 DRR["48"]["TextWrapped"] = true;
 DRR["48"]["BorderSizePixel"] = 0;
@@ -573,7 +573,7 @@ DRR["48"]["Name"] = [[Open]];
 DRR["48"]["BackgroundTransparency"] = 1;
 DRR["48"]["Position"] = UDim2.new(0, 0, 0.21875, 0);
 
--- DrRay.Folder.Dropdown.DropdownBar.Trigger
+-- V✧RTX.Folder.Dropdown.DropdownBar.Trigger
 DRR["49"] = Instance.new("TextButton", DRR["42"]);
 DRR["49"]["BorderSizePixel"] = 0;
 DRR["49"]["AutoButtonColor"] = false;
@@ -586,7 +586,7 @@ DRR["49"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["49"]["Text"] = [[]];
 DRR["49"]["BackgroundTransparency"] = 1;
 
--- DrRay.Folder.Dropdown.Box
+-- V✧RTX.Folder.Dropdown.Box
 DRR["4a"] = Instance.new("Frame", DRR["3d"]);
 DRR["4a"]["BorderSizePixel"] = 0;
 DRR["4a"]["BackgroundColor3"] = Color3.fromRGB(40, 45, 62);
@@ -597,20 +597,20 @@ DRR["4a"]["Position"] = UDim2.new(0.014326647855341434, 0, 0.6362887620925903, 0
 DRR["4a"]["Visible"] = false;
 DRR["4a"]["Name"] = [[Box]];
 
--- DrRay.Folder.Dropdown.Box.UIGradient
+-- V✧RTX.Folder.Dropdown.Box.UIGradient
 DRR["4b"] = Instance.new("UIGradient", DRR["4a"]);
 DRR["4b"]["Rotation"] = 90;
 DRR["4b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(117, 117, 117)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.Folder.Dropdown.Box.UIStroke
+-- V✧RTX.Folder.Dropdown.Box.UIStroke
 DRR["4c"] = Instance.new("UIStroke", DRR["4a"]);
 DRR["4c"]["Color"] = Color3.fromRGB(40, 45, 62);
 
--- DrRay.Folder.Dropdown.Box.UICorner
+-- V✧RTX.Folder.Dropdown.Box.UICorner
 DRR["4d"] = Instance.new("UICorner", DRR["4a"]);
 DRR["4d"]["CornerRadius"] = UDim.new(0.05999999865889549, 0);
 
--- DrRay.Folder.Dropdown.Box.ScrollingFrame
+-- V✧RTX.Folder.Dropdown.Box.ScrollingFrame
 DRR["4e"] = Instance.new("ScrollingFrame", DRR["4a"]);
 DRR["4e"]["Active"] = true;
 DRR["4e"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
@@ -625,12 +625,12 @@ DRR["4e"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["4e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["4e"]["ScrollBarThickness"] = 0;
 
--- DrRay.Folder.Dropdown.Box.ScrollingFrame.UIListLayout
+-- V✧RTX.Folder.Dropdown.Box.ScrollingFrame.UIListLayout
 DRR["4f"] = Instance.new("UIListLayout", DRR["4e"]);
 DRR["4f"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
 DRR["4f"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
--- DrRay.Folder.Keybind
+-- V✧RTX.Folder.Keybind
 DRR["50"] = Instance.new("Frame", DRR["30"]);
 DRR["50"]["Active"] = true;
 DRR["50"]["BorderSizePixel"] = 0;
@@ -642,16 +642,16 @@ DRR["50"]["Position"] = UDim2.new(0.019283747300505638, 0, 0.12373435497283936, 
 DRR["50"]["Visible"] = false;
 DRR["50"]["Name"] = [[Keybind]];
 
--- DrRay.Folder.Keybind.UICorner
+-- V✧RTX.Folder.Keybind.UICorner
 DRR["51"] = Instance.new("UICorner", DRR["50"]);
 DRR["51"]["CornerRadius"] = UDim.new(0.03999999910593033, 0);
 
--- DrRay.Folder.Keybind.UIGradient
+-- V✧RTX.Folder.Keybind.UIGradient
 DRR["52"] = Instance.new("UIGradient", DRR["50"]);
 DRR["52"]["Rotation"] = 90;
 DRR["52"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(113, 113, 113)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(194, 194, 194))};
 
--- DrRay.Folder.Keybind.Title
+-- V✧RTX.Folder.Keybind.Title
 DRR["53"] = Instance.new("TextLabel", DRR["50"]);
 DRR["53"]["TextWrapped"] = true;
 DRR["53"]["BorderSizePixel"] = 0;
@@ -668,7 +668,7 @@ DRR["53"]["Name"] = [[Title]];
 DRR["53"]["BackgroundTransparency"] = 1;
 DRR["53"]["Position"] = UDim2.new(0.017191976308822632, 0, 0.10911344736814499, 0);
 
--- DrRay.Folder.Keybind.Description
+-- V✧RTX.Folder.Keybind.Description
 DRR["54"] = Instance.new("TextLabel", DRR["50"]);
 DRR["54"]["TextWrapped"] = true;
 DRR["54"]["BorderSizePixel"] = 0;
@@ -685,7 +685,7 @@ DRR["54"]["Name"] = [[Description]];
 DRR["54"]["BackgroundTransparency"] = 1;
 DRR["54"]["Position"] = UDim2.new(0.012893982231616974, 0, 0.7092373967170715, 0);
 
--- DrRay.Folder.Keybind.Bind
+-- V✧RTX.Folder.Keybind.Bind
 DRR["55"] = Instance.new("Frame", DRR["50"]);
 DRR["55"]["Active"] = true;
 DRR["55"]["BorderSizePixel"] = 0;
@@ -695,20 +695,20 @@ DRR["55"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["55"]["Position"] = UDim2.new(0.014326647855341434, 0, 0.34552592039108276, 0);
 DRR["55"]["Name"] = [[Bind]];
 
--- DrRay.Folder.Keybind.Bind.UICorner
+-- V✧RTX.Folder.Keybind.Bind.UICorner
 DRR["56"] = Instance.new("UICorner", DRR["55"]);
 DRR["56"]["CornerRadius"] = UDim.new(0.20000000298023224, 0);
 
--- DrRay.Folder.Keybind.Bind.UIGradient
+-- V✧RTX.Folder.Keybind.Bind.UIGradient
 DRR["57"] = Instance.new("UIGradient", DRR["55"]);
 DRR["57"]["Rotation"] = 90;
 DRR["57"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(117, 117, 117)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.Folder.Keybind.Bind.UIStroke
+-- V✧RTX.Folder.Keybind.Bind.UIStroke
 DRR["58"] = Instance.new("UIStroke", DRR["55"]);
 DRR["58"]["Color"] = Color3.fromRGB(40, 45, 62);
 
--- DrRay.Folder.Keybind.Bind.Button
+-- V✧RTX.Folder.Keybind.Bind.Button
 DRR["59"] = Instance.new("TextButton", DRR["55"]);
 DRR["59"]["TextWrapped"] = true;
 DRR["59"]["ZIndex"] = 5;
@@ -726,7 +726,7 @@ DRR["59"]["Text"] = [[key]];
 DRR["59"]["Position"] = UDim2.new(0, 0, 0.21875, 0);
 DRR["59"]["BackgroundTransparency"] = 0.9900000095367432;
 
--- DrRay.Folder.Label
+-- V✧RTX.Folder.Label
 DRR["5a"] = Instance.new("Frame", DRR["30"]);
 DRR["5a"]["BorderSizePixel"] = 0;
 DRR["5a"]["BackgroundColor3"] = Color3.fromRGB(40, 45, 62);
@@ -737,16 +737,16 @@ DRR["5a"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 DRR["5a"]["Visible"] = false;
 DRR["5a"]["Name"] = [[Label]];
 
--- DrRay.Folder.Label.UICorner
+-- V✧RTX.Folder.Label.UICorner
 DRR["5b"] = Instance.new("UICorner", DRR["5a"]);
 DRR["5b"]["CornerRadius"] = UDim.new(0.33000001311302185, 0);
 
--- DrRay.Folder.Label.UIGradient
+-- V✧RTX.Folder.Label.UIGradient
 DRR["5c"] = Instance.new("UIGradient", DRR["5a"]);
 DRR["5c"]["Rotation"] = 90;
 DRR["5c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(166, 166, 166)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.Folder.Label.Title
+-- V✧RTX.Folder.Label.Title
 DRR["5d"] = Instance.new("TextLabel", DRR["5a"]);
 DRR["5d"]["TextWrapped"] = true;
 DRR["5d"]["BorderSizePixel"] = 0;
@@ -763,7 +763,7 @@ DRR["5d"]["Name"] = [[Title]];
 DRR["5d"]["BackgroundTransparency"] = 1;
 DRR["5d"]["Position"] = UDim2.new(0.018000036478042603, 0, 0.22100010514259338, 0);
 
--- DrRay.Folder.Slider
+-- V✧RTX.Folder.Slider
 DRR["5e"] = Instance.new("Frame", DRR["30"]);
 DRR["5e"]["BorderSizePixel"] = 0;
 DRR["5e"]["BackgroundColor3"] = Color3.fromRGB(40, 45, 62);
@@ -774,16 +774,16 @@ DRR["5e"]["Position"] = UDim2.new(0.019283747300505638, 0, 0.12373435497283936, 
 DRR["5e"]["Visible"] = false;
 DRR["5e"]["Name"] = [[Slider]];
 
--- DrRay.Folder.Slider.UICorner
+-- V✧RTX.Folder.Slider.UICorner
 DRR["5f"] = Instance.new("UICorner", DRR["5e"]);
 DRR["5f"]["CornerRadius"] = UDim.new(0.03999999910593033, 0);
 
--- DrRay.Folder.Slider.UIGradient
+-- V✧RTX.Folder.Slider.UIGradient
 DRR["60"] = Instance.new("UIGradient", DRR["5e"]);
 DRR["60"]["Rotation"] = 90;
 DRR["60"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(108, 108, 108)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(232, 232, 232))};
 
--- DrRay.Folder.Slider.Title
+-- V✧RTX.Folder.Slider.Title
 DRR["61"] = Instance.new("TextLabel", DRR["5e"]);
 DRR["61"]["TextWrapped"] = true;
 DRR["61"]["BorderSizePixel"] = 0;
@@ -800,7 +800,7 @@ DRR["61"]["Name"] = [[Title]];
 DRR["61"]["BackgroundTransparency"] = 1;
 DRR["61"]["Position"] = UDim2.new(0.017191976308822632, 0, 0.10911344736814499, 0);
 
--- DrRay.Folder.Slider.ActualSlider
+-- V✧RTX.Folder.Slider.ActualSlider
 DRR["62"] = Instance.new("Frame", DRR["5e"]);
 DRR["62"]["BorderSizePixel"] = 0;
 DRR["62"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 39);
@@ -810,20 +810,20 @@ DRR["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["62"]["Position"] = UDim2.new(0.014326647855341434, 0, 0.34552592039108276, 0);
 DRR["62"]["Name"] = [[ActualSlider]];
 
--- DrRay.Folder.Slider.ActualSlider.UICorner
+-- V✧RTX.Folder.Slider.ActualSlider.UICorner
 DRR["63"] = Instance.new("UICorner", DRR["62"]);
 DRR["63"]["CornerRadius"] = UDim.new(0.20000000298023224, 0);
 
--- DrRay.Folder.Slider.ActualSlider.UIGradient
+-- V✧RTX.Folder.Slider.ActualSlider.UIGradient
 DRR["64"] = Instance.new("UIGradient", DRR["62"]);
 DRR["64"]["Rotation"] = 90;
 DRR["64"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(64, 64, 64)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(148, 148, 148))};
 
--- DrRay.Folder.Slider.ActualSlider.UIStroke
+-- V✧RTX.Folder.Slider.ActualSlider.UIStroke
 DRR["65"] = Instance.new("UIStroke", DRR["62"]);
 DRR["65"]["Color"] = Color3.fromRGB(0, 255, 39);
 
--- DrRay.Folder.Slider.ActualSlider.Fill
+-- V✧RTX.Folder.Slider.ActualSlider.Fill
 DRR["66"] = Instance.new("Frame", DRR["62"]);
 DRR["66"]["BorderSizePixel"] = 0;
 DRR["66"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 39);
@@ -832,16 +832,16 @@ DRR["66"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["66"]["Position"] = UDim2.new(-0.0010000000474974513, 0, 0.029999999329447746, 0);
 DRR["66"]["Name"] = [[Fill]];
 
--- DrRay.Folder.Slider.ActualSlider.Fill.UICorner
+-- V✧RTX.Folder.Slider.ActualSlider.Fill.UICorner
 DRR["67"] = Instance.new("UICorner", DRR["66"]);
 DRR["67"]["CornerRadius"] = UDim.new(0.20000000298023224, 0);
 
--- DrRay.Folder.Slider.ActualSlider.Fill.UIGradient
+-- V✧RTX.Folder.Slider.ActualSlider.Fill.UIGradient
 DRR["68"] = Instance.new("UIGradient", DRR["66"]);
 DRR["68"]["Rotation"] = 90;
 DRR["68"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(107, 107, 107)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.Folder.Slider.ActualSlider.Trigger
+-- V✧RTX.Folder.Slider.ActualSlider.Trigger
 DRR["69"] = Instance.new("TextButton", DRR["62"]);
 DRR["69"]["BorderSizePixel"] = 0;
 DRR["69"]["AutoButtonColor"] = false;
@@ -855,16 +855,16 @@ DRR["69"]["Text"] = [[]];
 DRR["69"]["Position"] = UDim2.new(-0.0010000000474974513, 0, 0.029999999329447746, 0);
 DRR["69"]["BackgroundTransparency"] = 1;
 
--- DrRay.Folder.Slider.ActualSlider.Trigger.UICorner
+-- V✧RTX.Folder.Slider.ActualSlider.Trigger.UICorner
 DRR["6a"] = Instance.new("UICorner", DRR["69"]);
 DRR["6a"]["CornerRadius"] = UDim.new(0.20000000298023224, 0);
 
--- DrRay.Folder.Slider.ActualSlider.Trigger.UIGradient
+-- V✧RTX.Folder.Slider.ActualSlider.Trigger.UIGradient
 DRR["6b"] = Instance.new("UIGradient", DRR["69"]);
 DRR["6b"]["Rotation"] = 90;
 DRR["6b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(166, 166, 166)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.Folder.Slider.ActualSlider.Title
+-- V✧RTX.Folder.Slider.ActualSlider.Title
 DRR["6c"] = Instance.new("TextLabel", DRR["62"]);
 DRR["6c"]["TextWrapped"] = true;
 DRR["6c"]["BorderSizePixel"] = 0;
@@ -882,7 +882,7 @@ DRR["6c"]["Name"] = [[Title]];
 DRR["6c"]["BackgroundTransparency"] = 1;
 DRR["6c"]["Position"] = UDim2.new(0.023000000044703484, 0, 0.23100000619888306, 0);
 
--- DrRay.Folder.Slider.Description
+-- V✧RTX.Folder.Slider.Description
 DRR["6d"] = Instance.new("TextLabel", DRR["5e"]);
 DRR["6d"]["TextWrapped"] = true;
 DRR["6d"]["BorderSizePixel"] = 0;
@@ -899,7 +899,7 @@ DRR["6d"]["Name"] = [[Description]];
 DRR["6d"]["BackgroundTransparency"] = 1;
 DRR["6d"]["Position"] = UDim2.new(0.015759311616420746, 0, 0.7274229526519775, 0);
 
--- DrRay.Folder.Textbox
+-- V✧RTX.Folder.Textbox
 DRR["6e"] = Instance.new("Frame", DRR["30"]);
 DRR["6e"]["BorderSizePixel"] = 0;
 DRR["6e"]["BackgroundColor3"] = Color3.fromRGB(40, 45, 62);
@@ -910,16 +910,16 @@ DRR["6e"]["Position"] = UDim2.new(0.019283747300505638, 0, 0.12373435497283936, 
 DRR["6e"]["Visible"] = false;
 DRR["6e"]["Name"] = [[Textbox]];
 
--- DrRay.Folder.Textbox.UICorner
+-- V✧RTX.Folder.Textbox.UICorner
 DRR["6f"] = Instance.new("UICorner", DRR["6e"]);
 DRR["6f"]["CornerRadius"] = UDim.new(0.03999999910593033, 0);
 
--- DrRay.Folder.Textbox.UIGradient
+-- V✧RTX.Folder.Textbox.UIGradient
 DRR["70"] = Instance.new("UIGradient", DRR["6e"]);
 DRR["70"]["Rotation"] = 90;
 DRR["70"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(89, 89, 89)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(139, 139, 139))};
 
--- DrRay.Folder.Textbox.Title
+-- V✧RTX.Folder.Textbox.Title
 DRR["71"] = Instance.new("TextLabel", DRR["6e"]);
 DRR["71"]["TextWrapped"] = true;
 DRR["71"]["BorderSizePixel"] = 0;
@@ -936,7 +936,7 @@ DRR["71"]["Name"] = [[Title]];
 DRR["71"]["BackgroundTransparency"] = 1;
 DRR["71"]["Position"] = UDim2.new(0.017191976308822632, 0, 0.10911344736814499, 0);
 
--- DrRay.Folder.Textbox.Description
+-- V✧RTX.Folder.Textbox.Description
 DRR["72"] = Instance.new("TextLabel", DRR["6e"]);
 DRR["72"]["TextWrapped"] = true;
 DRR["72"]["BorderSizePixel"] = 0;
@@ -953,7 +953,7 @@ DRR["72"]["Name"] = [[Description]];
 DRR["72"]["BackgroundTransparency"] = 1;
 DRR["72"]["Position"] = UDim2.new(0.012893982231616974, 0, 0.7092373967170715, 0);
 
--- DrRay.Folder.Textbox.TextboxBar
+-- V✧RTX.Folder.Textbox.TextboxBar
 DRR["73"] = Instance.new("Frame", DRR["6e"]);
 DRR["73"]["BorderSizePixel"] = 0;
 DRR["73"]["BackgroundColor3"] = Color3.fromRGB(40, 45, 62);
@@ -962,20 +962,20 @@ DRR["73"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["73"]["Position"] = UDim2.new(0.014326647855341434, 0, 0.34552592039108276, 0);
 DRR["73"]["Name"] = [[TextboxBar]];
 
--- DrRay.Folder.Textbox.TextboxBar.UICorner
+-- V✧RTX.Folder.Textbox.TextboxBar.UICorner
 DRR["74"] = Instance.new("UICorner", DRR["73"]);
 DRR["74"]["CornerRadius"] = UDim.new(0.20000000298023224, 0);
 
--- DrRay.Folder.Textbox.TextboxBar.UIGradient
+-- V✧RTX.Folder.Textbox.TextboxBar.UIGradient
 DRR["75"] = Instance.new("UIGradient", DRR["73"]);
 DRR["75"]["Rotation"] = 90;
 DRR["75"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(117, 117, 117)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.Folder.Textbox.TextboxBar.UIStroke
+-- V✧RTX.Folder.Textbox.TextboxBar.UIStroke
 DRR["76"] = Instance.new("UIStroke", DRR["73"]);
 DRR["76"]["Color"] = Color3.fromRGB(40, 45, 62);
 
--- DrRay.Folder.Textbox.TextboxBar.ActualTextbox
+-- V✧RTX.Folder.Textbox.TextboxBar.ActualTextbox
 DRR["77"] = Instance.new("TextBox", DRR["73"]);
 DRR["77"]["PlaceholderColor3"] = Color3.fromRGB(155, 155, 155);
 DRR["77"]["BorderSizePixel"] = 0;
@@ -994,7 +994,7 @@ DRR["77"]["Text"] = [[]];
 DRR["77"]["Position"] = UDim2.new(0, 0, 0.21875, 0);
 DRR["77"]["Name"] = [[ActualTextbox]];
 
--- DrRay.Folder.Toggle
+-- V✧RTX.Folder.Toggle
 DRR["78"] = Instance.new("Frame", DRR["30"]);
 DRR["78"]["Active"] = true;
 DRR["78"]["BorderSizePixel"] = 0;
@@ -1006,16 +1006,16 @@ DRR["78"]["Position"] = UDim2.new(0.019283747300505638, 0, 0.6786856055259705, 0
 DRR["78"]["Visible"] = false;
 DRR["78"]["Name"] = [[Toggle]];
 
--- DrRay.Folder.Toggle.UICorner
+-- V✧RTX.Folder.Toggle.UICorner
 DRR["79"] = Instance.new("UICorner", DRR["78"]);
 DRR["79"]["CornerRadius"] = UDim.new(0.03999999910593033, 0);
 
--- DrRay.Folder.Toggle.UIGradient
+-- V✧RTX.Folder.Toggle.UIGradient
 DRR["7a"] = Instance.new("UIGradient", DRR["78"]);
 DRR["7a"]["Rotation"] = 90;
 DRR["7a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(109, 109, 109)),ColorSequenceKeypoint.new(0.765, Color3.fromRGB(181, 181, 181)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(217, 217, 217))};
 
--- DrRay.Folder.Toggle.Title
+-- V✧RTX.Folder.Toggle.Title
 DRR["7b"] = Instance.new("TextLabel", DRR["78"]);
 DRR["7b"]["TextWrapped"] = true;
 DRR["7b"]["BorderSizePixel"] = 0;
@@ -1033,7 +1033,7 @@ DRR["7b"]["Name"] = [[Title]];
 DRR["7b"]["BackgroundTransparency"] = 1;
 DRR["7b"]["Position"] = UDim2.new(0.015759311616420746, 0, 0.18482854962348938, 0);
 
--- DrRay.Folder.Toggle.Description
+-- V✧RTX.Folder.Toggle.Description
 DRR["7c"] = Instance.new("TextLabel", DRR["78"]);
 DRR["7c"]["TextWrapped"] = true;
 DRR["7c"]["BorderSizePixel"] = 0;
@@ -1050,7 +1050,7 @@ DRR["7c"]["Name"] = [[Description]];
 DRR["7c"]["BackgroundTransparency"] = 1;
 DRR["7c"]["Position"] = UDim2.new(0.011461318470537663, 0, 0.5852904319763184, 0);
 
--- DrRay.Folder.Toggle.Label
+-- V✧RTX.Folder.Toggle.Label
 DRR["7d"] = Instance.new("Frame", DRR["78"]);
 DRR["7d"]["BorderSizePixel"] = 0;
 DRR["7d"]["BackgroundColor3"] = Color3.fromRGB(0, 255, 39);
@@ -1060,22 +1060,22 @@ DRR["7d"]["Position"] = UDim2.new(0.92550128698349, 0, 0.27990657091140747, 0);
 DRR["7d"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 DRR["7d"]["Name"] = [[Label]];
 
--- DrRay.Folder.Toggle.Label.UICorner
+-- V✧RTX.Folder.Toggle.Label.UICorner
 DRR["7e"] = Instance.new("UICorner", DRR["7d"]);
 DRR["7e"]["CornerRadius"] = UDim.new(0.33000001311302185, 0);
 
--- DrRay.Folder.Toggle.Label.UIGradient
+-- V✧RTX.Folder.Toggle.Label.UIGradient
 DRR["7f"] = Instance.new("UIGradient", DRR["7d"]);
 DRR["7f"]["Rotation"] = 90;
 DRR["7f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(166, 166, 166)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.Folder.Toggle.Label.UIStroke
+-- V✧RTX.Folder.Toggle.Label.UIStroke
 DRR["80"] = Instance.new("UIStroke", DRR["7d"]);
 DRR["80"]["Color"] = Color3.fromRGB(40, 45, 62);
 DRR["80"]["Thickness"] = 2.4000000953674316;
 DRR["80"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
--- DrRay.Folder.Toggle.Label.Label
+-- V✧RTX.Folder.Toggle.Label.Label
 DRR["81"] = Instance.new("TextButton", DRR["7d"]);
 DRR["81"]["BorderSizePixel"] = 0;
 DRR["81"]["BackgroundColor3"] = Color3.fromRGB(40, 45, 62);
@@ -1087,16 +1087,16 @@ DRR["81"]["Text"] = [[]];
 DRR["81"]["AutomaticSize"] = Enum.AutomaticSize.Y;
 DRR["81"]["BackgroundTransparency"] = 1;
 
--- DrRay.Folder.Toggle.Label.Label.UICorner
+-- V✧RTX.Folder.Toggle.Label.Label.UICorner
 DRR["82"] = Instance.new("UICorner", DRR["81"]);
 DRR["82"]["CornerRadius"] = UDim.new(0.33000001311302185, 0);
 
--- DrRay.Folder.Toggle.Label.Label.UIGradient
+-- V✧RTX.Folder.Toggle.Label.Label.UIGradient
 DRR["83"] = Instance.new("UIGradient", DRR["81"]);
 DRR["83"]["Rotation"] = 90;
 DRR["83"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(166, 166, 166)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.Folder.Button
+-- V✧RTX.Folder.Button
 DRR["84"] = Instance.new("TextButton", DRR["30"]);
 DRR["84"]["BorderSizePixel"] = 0;
 DRR["84"]["AutoButtonColor"] = false;
@@ -1110,16 +1110,16 @@ DRR["84"]["Text"] = [[]];
 DRR["84"]["Position"] = UDim2.new(0.019283747300505638, 0, 0.6786856055259705, 0);
 DRR["84"]["BackgroundTransparency"] = 0.4000000059604645;
 
--- DrRay.Folder.Button.UICorner
+-- V✧RTX.Folder.Button.UICorner
 DRR["85"] = Instance.new("UICorner", DRR["84"]);
 DRR["85"]["CornerRadius"] = UDim.new(0.03999999910593033, 0);
 
--- DrRay.Folder.Button.UIGradient
+-- V✧RTX.Folder.Button.UIGradient
 DRR["86"] = Instance.new("UIGradient", DRR["84"]);
 DRR["86"]["Rotation"] = 90;
 DRR["86"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(109, 109, 109)),ColorSequenceKeypoint.new(0.765, Color3.fromRGB(181, 181, 181)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(217, 217, 217))};
 
--- DrRay.Folder.Button.Title
+-- V✧RTX.Folder.Button.Title
 DRR["87"] = Instance.new("TextLabel", DRR["84"]);
 DRR["87"]["TextWrapped"] = true;
 DRR["87"]["BorderSizePixel"] = 0;
@@ -1137,7 +1137,7 @@ DRR["87"]["Name"] = [[Title]];
 DRR["87"]["BackgroundTransparency"] = 1;
 DRR["87"]["Position"] = UDim2.new(0.015759311616420746, 0, 0.18482854962348938, 0);
 
--- DrRay.Folder.Button.Description
+-- V✧RTX.Folder.Button.Description
 DRR["88"] = Instance.new("TextLabel", DRR["84"]);
 DRR["88"]["TextWrapped"] = true;
 DRR["88"]["BorderSizePixel"] = 0;
@@ -1154,7 +1154,7 @@ DRR["88"]["Name"] = [[Description]];
 DRR["88"]["BackgroundTransparency"] = 1;
 DRR["88"]["Position"] = UDim2.new(0.011461318470537663, 0, 0.5852904319763184, 0);
 
--- DrRay.Folder.DropdownButton
+-- V✧RTX.Folder.DropdownButton
 DRR["89"] = Instance.new("TextButton", DRR["30"]);
 DRR["89"]["Active"] = false;
 DRR["89"]["BorderSizePixel"] = 0;
@@ -1166,20 +1166,20 @@ DRR["89"]["Name"] = [[DropdownButton]];
 DRR["89"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["89"]["Position"] = UDim2.new(0.08656254410743713, 0, 0, 0);
 
--- DrRay.Folder.DropdownButton.UICorner
+-- V✧RTX.Folder.DropdownButton.UICorner
 DRR["8a"] = Instance.new("UICorner", DRR["89"]);
 DRR["8a"]["CornerRadius"] = UDim.new(0.20000000298023224, 0);
 
--- DrRay.Folder.DropdownButton.UIGradient
+-- V✧RTX.Folder.DropdownButton.UIGradient
 DRR["8b"] = Instance.new("UIGradient", DRR["89"]);
 DRR["8b"]["Rotation"] = 90;
 DRR["8b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(117, 117, 117)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
--- DrRay.Folder.DropdownButton.UIStroke
+-- V✧RTX.Folder.DropdownButton.UIStroke
 DRR["8c"] = Instance.new("UIStroke", DRR["89"]);
 DRR["8c"]["Color"] = Color3.fromRGB(40, 45, 62);
 
--- DrRay.Folder.DropdownButton.name
+-- V✧RTX.Folder.DropdownButton.name
 DRR["8d"] = Instance.new("TextLabel", DRR["89"]);
 DRR["8d"]["TextWrapped"] = true;
 DRR["8d"]["BorderSizePixel"] = 0;
@@ -1195,7 +1195,7 @@ DRR["8d"]["Name"] = [[name]];
 DRR["8d"]["BackgroundTransparency"] = 1;
 DRR["8d"]["Position"] = UDim2.new(0, 0, 0.21875, 0);
 
--- DrRay.Button
+-- V✧RTX.Button
 DRR["8e"] = Instance.new("TextButton", DRR["1"]);
 DRR["8e"]["BorderSizePixel"] = 0;
 DRR["8e"]["AutoButtonColor"] = false;
@@ -1209,16 +1209,16 @@ DRR["8e"]["Text"] = [[]];
 DRR["8e"]["Position"] = UDim2.new(0.019283747300505638, 0, 0.6786856055259705, 0);
 DRR["8e"]["BackgroundTransparency"] = 0.4000000059604645;
 
--- DrRay.Button.UICorner
+-- V✧RTX.Button.UICorner
 DRR["8f"] = Instance.new("UICorner", DRR["8e"]);
 DRR["8f"]["CornerRadius"] = UDim.new(0.03999999910593033, 0);
 
--- DrRay.Button.UIGradient
+-- V✧RTX.Button.UIGradient
 DRR["90"] = Instance.new("UIGradient", DRR["8e"]);
 DRR["90"]["Rotation"] = 90;
 DRR["90"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(109, 109, 109)),ColorSequenceKeypoint.new(0.765, Color3.fromRGB(181, 181, 181)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(217, 217, 217))};
 
--- DrRay.Button.Title
+-- V✧RTX.Button.Title
 DRR["91"] = Instance.new("TextLabel", DRR["8e"]);
 DRR["91"]["TextWrapped"] = true;
 DRR["91"]["BorderSizePixel"] = 0;
@@ -1236,7 +1236,7 @@ DRR["91"]["Name"] = [[Title]];
 DRR["91"]["BackgroundTransparency"] = 1;
 DRR["91"]["Position"] = UDim2.new(0.015759311616420746, 0, 0.18482854962348938, 0);
 
--- DrRay.Button.Description
+-- V✧RTX.Button.Description
 DRR["92"] = Instance.new("TextLabel", DRR["8e"]);
 DRR["92"]["TextWrapped"] = true;
 DRR["92"]["BorderSizePixel"] = 0;
@@ -1253,7 +1253,7 @@ DRR["92"]["Name"] = [[Description]];
 DRR["92"]["BackgroundTransparency"] = 1;
 DRR["92"]["Position"] = UDim2.new(0.011461318470537663, 0, 0.5852904319763184, 0);
 
--- DrRay.Library
+-- V✧RTX.Library
 DRR["93"] = Instance.new("ModuleScript", DRR["1"]);
 DRR["93"]["Name"] = [[Library]];
 
@@ -1429,18 +1429,7 @@ function UILIB:Load(name, img, direction)
 			end
 		end
 	end
-
 end
-
-
-
-
-
-
-
-
-
-
 
 function UILIB.newTab(name, img)	
 	local self = setmetatable({}, UILIB)
@@ -1534,10 +1523,7 @@ function UILIB.newTab(name, img)
 			local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0.4 })
 
 			twBtn:Play()
-
-
 		end)
-
 		newInput.Visible = true
 		newInput.Parent = newTab
 		newInput.Title.Text = name
@@ -1774,13 +1760,6 @@ function UILIB.newTab(name, img)
 
 	return self
 end
-
-
-
-
-
-
-
 
 return UILIB
 
