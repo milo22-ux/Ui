@@ -32,7 +32,7 @@ DRR["4"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["4"]["AutomaticCanvasSize"] = Enum.AutomaticSize.X;
 DRR["4"]["BackgroundTransparency"] = 1;
 DRR["4"]["Size"] = UDim2.new(0.915977954864502, 0, 0.5196850299835205, 0);
-DRR["4"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+DRR["4"]["ScrollBarImageColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["4"]["BorderColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["4"]["ScrollBarThickness"] = 0;
 DRR["4"]["Position"] = UDim2.new(0, 0, 0.4803149700164795, 0);
@@ -79,10 +79,10 @@ DRR["9"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fr
 -- V✧RTX.TopBar.TopBar
 DRR["a"] = Instance.new("Frame", DRR["2"]);
 DRR["a"]["BorderSizePixel"] = 0;
-DRR["a"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
+DRR["a"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["a"]["LayoutOrder"] = 2;
 DRR["a"]["Size"] = UDim2.new(0.9983566999435425, 0, 0.05511785298585892, 0);
-DRR["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+DRR["a"]["BorderColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["a"]["Position"] = UDim2.new(0, 0, 0.4645671844482422, 0);
 DRR["a"]["Name"] = [[TopBar]];
 
@@ -243,11 +243,11 @@ DRR["1f"] = Instance.new("TextButton", DRR["2"]);
 DRR["1f"]["Active"] = false;
 DRR["1f"]["BorderSizePixel"] = 0;
 DRR["1f"]["AutoButtonColor"] = false;
-DRR["1f"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
+DRR["1f"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["1f"]["Selectable"] = false;
 DRR["1f"]["Size"] = UDim2.new(0.08402203768491745, 0, 0.4803149402141571, 0);
 DRR["1f"]["Name"] = [[TopBarClose]];
-DRR["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+DRR["1f"]["BorderColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["1f"]["Text"] = [[]];
 DRR["1f"]["Position"] = UDim2.new(0.915977954864502, 0, 0.5196850299835205, 0);
 
@@ -258,7 +258,7 @@ DRR["20"]["CornerRadius"] = UDim.new(0.20000000298023224, 0);
 -- V✧RTX.TopBar.TopBarClose.UIGradient
 DRR["21"] = Instance.new("UIGradient", DRR["1f"]);
 DRR["21"]["Rotation"] = 90;
-DRR["21"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(117, 117, 117)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(218, 218, 218))};
+DRR["21"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(117, 117, 117)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(220, 20, 60))};
 
 -- V✧RTX.TopBar.TopBarClose.idk
 DRR["22"] = Instance.new("Frame", DRR["1f"]);
