@@ -7,7 +7,7 @@ Introducing the V✧RTX UI Library, a Roblox Exploit UI Library created just for
 To begin, you need to declare a variable to access the library.
 
 ```lua
-local DrRayLibrary = loadstring(game:HttpGet(""))()
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/milo22-ux/Ui/refs/heads/main/V%E2%9C%A7RTX.lua"))()
 ```
 
 To load the UI, simply call the function:
