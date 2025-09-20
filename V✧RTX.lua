@@ -313,7 +313,7 @@ DRR["29"]["CornerRadius"] = UDim.new(0.029999999329447746, 0);
 -- V✧RTX.MainBar.UIGradient
 DRR["2a"] = Instance.new("UIGradient", DRR["28"]);
 DRR["2a"]["Rotation"] = 90;
-DRR["2a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(90, 90, 90)),ColorSequenceKeypoint.new(0.231, Color3.fromRGB(154, 154, 154)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+DRR["2a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(220, 20, 60)),ColorSequenceKeypoint.new(0.231, Color3.fromRGB(220, 20, 60)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
 
 -- V✧RTX.MainBar.UIAspectRatioConstraint
 DRR["2b"] = Instance.new("UIAspectRatioConstraint", DRR["28"]);
@@ -368,7 +368,7 @@ DRR["31"] = Instance.new("ScrollingFrame", DRR["30"]);
 DRR["31"]["Active"] = true;
 DRR["31"]["BorderSizePixel"] = 0;
 DRR["31"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
-DRR["31"]["BackgroundColor3"] = Color3.fromRGB(26, 26, 36);
+DRR["31"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["31"]["VerticalScrollBarPosition"] = Enum.VerticalScrollBarPosition.Left;
 DRR["31"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
 DRR["31"]["BackgroundTransparency"] = 1;
@@ -390,7 +390,7 @@ DRR["32"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 DRR["33"] = Instance.new("ImageButton", DRR["30"]);
 DRR["33"]["BorderSizePixel"] = 0;
 DRR["33"]["AutoButtonColor"] = false;
-DRR["33"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
+DRR["33"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["33"]["Size"] = UDim2.new(0.19896680116653442, 0, 0.6315789818763733, 0);
 DRR["33"]["Name"] = [[TabButtonReserved]];
 DRR["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
@@ -1283,8 +1283,8 @@ UILIB.__index = UILIB
 local listening = false
 local twServ = game:GetService("TweenService")
 local UIS = game:GetService("UserInputService")
-local GlobalColor1 = Color3.fromRGB(39, 44, 61)
-local GlobalColor2 = Color3.fromRGB(0, 255, 38)
+local GlobalColor1 = Color3.fromRGB(220, 20, 60)
+local GlobalColor2 = Color3.fromRGB(220, 20, 60)
 local closed = false
 
 parent.TopBar.ProfileMenu.PlayerProfile.TextLabel.Text = game:GetService("Players").LocalPlayer.DisplayName
@@ -1418,10 +1418,10 @@ function UILIB:Load(name, img, direction)
 		for i,v in pairs(parent:GetChildren()) do
 			if v:IsA("GuiObject") then
 				pcall(function()
-					if v.BackgroundColor3 == Color3.fromRGB(39, 44, 61) then
+					if v.BackgroundColor3 == Color3.fromRGB(220, 20, 60), then
 						v.BackgroundColor3 = color
 						GlobalColor1 = color
-					elseif v.BackgroundColor3 == Color3.fromRGB(0, 255, 38) then
+					elseif v.BackgroundColor3 == Color3.fromRGB(220, 20, 60) then
 						v.BackgroundColor3 = color2
 						GlobalColor2 = color2
 					end
