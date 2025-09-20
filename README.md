@@ -13,7 +13,7 @@ local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 To load the UI, simply call the function:
 
 ```lua
-local window = DrRayLibrary:Load("V✧RTX", "Default")
+local window = V✧RTXLibrary:Load("V✧RTX", "default")
 ```
 
 **Argument 1: Name of your UI (type: `string`)**
@@ -29,7 +29,7 @@ We provide pre-made features for your convenience.
 You can create multiple tabs to organize your features.
 
 ```lua
-local tab = DrRayLibrary.newTab("My Tab", "ImageIdHere")
+local tab = V✧RTXLibrary.newTab("My Tab", "ImageIdHere")
 ```
 
 **Argument 1: Name of your tab (type: `string`)**
