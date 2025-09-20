@@ -172,7 +172,7 @@ DRR["16"]["PaddingLeft"] = UDim.new(0.014000000432133675, 0);
 DRR["17"] = Instance.new("ImageButton", DRR["c"]);
 DRR["17"]["BorderSizePixel"] = 0;
 DRR["17"]["AutoButtonColor"] = false;
-DRR["17"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
+DRR["17"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["17"]["Size"] = UDim2.new(0.10328257083892822, 0, 0.682426393032074, 0);
 DRR["17"]["Name"] = [[Clock]];
 DRR["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
@@ -1177,7 +1177,7 @@ DRR["8b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.f
 
 -- V✧RTX.Folder.DropdownButton.UIStroke
 DRR["8c"] = Instance.new("UIStroke", DRR["89"]);
-DRR["8c"]["Color"] = Color3.fromRGB(40, 45, 62);
+DRR["8c"]["Color"] = Color3.fromRGB(220, 20, 60);
 
 -- V✧RTX.Folder.DropdownButton.name
 DRR["8d"] = Instance.new("TextLabel", DRR["89"]);
@@ -1199,7 +1199,7 @@ DRR["8d"]["Position"] = UDim2.new(0, 0, 0.21875, 0);
 DRR["8e"] = Instance.new("TextButton", DRR["1"]);
 DRR["8e"]["BorderSizePixel"] = 0;
 DRR["8e"]["AutoButtonColor"] = false;
-DRR["8e"]["BackgroundColor3"] = Color3.fromRGB(40, 45, 62);
+DRR["8e"]["BackgroundColor3"] = Color3.fromRGB(220, 20, 60);
 DRR["8e"]["Selectable"] = false;
 DRR["8e"]["Visible"] = false;
 DRR["8e"]["Size"] = UDim2.new(0.9614325165748596, 0, 0.15495234727859497, 0);
