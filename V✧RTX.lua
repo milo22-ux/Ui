@@ -1739,7 +1739,7 @@ function UILIB.newTab(name, img)
 --------------------------------------------
 function tab.newTextbox(name, desc)
     local newInput = reserved.Textbox:Clone()
-    newInput.Parent = tab._newTab or newTab
+    newInput.Parent = newTab
     newInput.Title.Text = name
     newInput.Description.Text = desc
     newInput.Visible = true
