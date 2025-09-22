@@ -1495,7 +1495,26 @@ function UILIB.newTab(name, img)
 			end
 		end
 	end)
+--------------------------------------------
+	function self.newTextbox(name, desc)
+    local newInput = reserved.Textbox:Clone()
+    newInput.Parent = newTab
+    newInput.Title.Text = name
+    newInput.Description.Text = desc
+    newInput.Visible = true
+    newInput.Name = name
 
+    newInput.MouseEnter:Connect(function()
+        local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0 })
+        twBtn:Play()
+    end)
+
+    newInput.MouseLeave:Connect(function()
+        local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0.4 })
+        twBtn:Play()
+    end)
+			end
+			
 	function self.newButton(name, desc, func)
 		local newbtn = reserved.Button:Clone()
 		newbtn.Parent = newTab
@@ -1736,25 +1755,6 @@ function UILIB.newTab(name, img)
 		end)
 		
 	end
---------------------------------------------
-function tab.newTextbox(name, desc)
-    local newInput = reserved.Textbox:Clone()
-    newInput.Parent = newTab
-    newInput.Title.Text = name
-    newInput.Description.Text = desc
-    newInput.Visible = true
-    newInput.Name = name
-
-    newInput.MouseEnter:Connect(function()
-        local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0 })
-        twBtn:Play()
-    end)
-
-    newInput.MouseLeave:Connect(function()
-        local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0.4 })
-        twBtn:Play()
-    end)
-			end
 			
 	function self.newDropdown(name, desc, listTable, func)
 		local newdd = reserved.Dropdown:Clone()
