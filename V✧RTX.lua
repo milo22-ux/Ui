@@ -1,4 +1,4 @@
--- Instances: 147 | Scripts: 0 | Modules: 1
+-- Instances: 149 | Scripts: 0 | Modules: 1
 local DRR = {};
 
 -- V✧RTX
@@ -1254,33 +1254,33 @@ DRR["92"]["BackgroundTransparency"] = 1;
 DRR["92"]["Position"] = UDim2.new(0.011461318470537663, 0, 0.5852904319763184, 0);
 
 -- V✧RTX.Tab.Textbox.Title
-DRR["70"] = Instance.new("TextLabel", DRR["50"])
-DRR["70"]["TextWrapped"] = true
-DRR["70"]["TextScaled"] = true
-DRR["70"]["BackgroundTransparency"] = 1
-DRR["70"]["TextXAlignment"] = Enum.TextXAlignment.Left
-DRR["70"]["FontFace"] = Font.new("rbxassetid://11702779517", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-DRR["70"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-DRR["70"]["Size"] = UDim2.new(0.96, 0, 0.35, 0)
-DRR["70"]["Position"] = UDim2.new(0.02, 0, 0, 0)
-DRR["70"]["Text"] = "Enter Name"
-DRR["70"]["Name"] = "Title"
+DRR["93"] = Instance.new("TextLabel", DRR["50"])
+DRR["93"]["TextWrapped"] = true
+DRR["93"]["TextScaled"] = true
+DRR["93"]["BackgroundTransparency"] = 1
+DRR["93"]["TextXAlignment"] = Enum.TextXAlignment.Left
+DRR["93"]["FontFace"] = Font.new("rbxassetid://11702779517", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+DRR["93"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+DRR["93"]["Size"] = UDim2.new(0.96, 0, 0.35, 0)
+DRR["93"]["Position"] = UDim2.new(0.02, 0, 0, 0)
+DRR["93"]["Text"] = "Enter Name"
+DRR["93"]["Name"] = "Title"
 
 -- V✧RTX.Tab.Textbox.Description
-DRR["71"] = Instance.new("TextLabel", DRR["50"])
-DRR["71"]["TextWrapped"] = true
-DRR["71"]["TextScaled"] = true
-DRR["71"]["BackgroundTransparency"] = 1
-DRR["71"]["TextXAlignment"] = Enum.TextXAlignment.Left
-DRR["71"]["FontFace"] = Font.new("rbxassetid://11702779517", Enum.FontWeight.Regular, Enum.FontStyle.Italic)
-DRR["71"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
-DRR["71"]["Size"] = UDim2.new(0.96, 0, 0.25, 0)
-DRR["71"]["Position"] = UDim2.new(0.02, 0, 0.35, 0)
-DRR["71"]["Text"] = "Type your name here"
-DRR["71"]["Name"] = "Description"
+DRR["94"] = Instance.new("TextLabel", DRR["50"])
+DRR["94"]["TextWrapped"] = true
+DRR["94"]["TextScaled"] = true
+DRR["94"]["BackgroundTransparency"] = 1
+DRR["94"]["TextXAlignment"] = Enum.TextXAlignment.Left
+DRR["94"]["FontFace"] = Font.new("rbxassetid://11702779517", Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+DRR["94"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+DRR["94"]["Size"] = UDim2.new(0.96, 0, 0.25, 0)
+DRR["94"]["Position"] = UDim2.new(0.02, 0, 0.35, 0)
+DRR["94"]["Text"] = "Type your name here"
+DRR["94"]["Name"] = "Description"
 
-DRR["93"] = Instance.new("ModuleScript", DRR["1"]);
-DRR["93"]["Name"] = [[Library]];
+DRR["95"] = Instance.new("ModuleScript", DRR["1"]);
+DRR["95"]["Name"] = [[Library]];
 -- Require DRR wrapper
 local DRR_REQUIRE = require;
 local DRR_MODULES = {};
@@ -1296,9 +1296,9 @@ local function require(Module:ModuleScript)
     return DRR_REQUIRE(Module);
 end
 
-DRR_MODULES[DRR["93"]] = {
+DRR_MODULES[DRR["95"]] = {
 Closure = function()
-    local script = DRR["93"];
+    local script = DRR["95"];
 local UILIB = {}
 local parent  = script.Parent
 local reserved = parent.Folder
@@ -1609,7 +1609,6 @@ function UILIB.newTab(name, img)
 				end
 			end)
 
-			-- Connect the InputBegan event
 			a = game:GetService("UserInputService").InputBegan:Connect(function(input, processed)
 				if input.UserInputType == Enum.UserInputType.Keyboard then
 					newKey.Bind.Button.Text = input.KeyCode.Name
