@@ -1256,32 +1256,59 @@ DRR["92"]["Position"] = UDim2.new(0.011461318470537663, 0, 0.5852904319763184, 0
 function self.newTextbox(titleText, descriptionText, callback)
     local DRR = {}
 
-    DRR["TX"] = reserved.Textbox:Clone()
-    DRR["TX"].Parent = newTab
-    DRR["TX"].Visible = true
-    DRR["TX"].Name = titleText
+    DRR["TXFrame"] = Instance.new("Frame", newTab)
+    DRR["TXFrame"].Name = titleText
+    DRR["TXFrame"].BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    DRR["TXFrame"].Size = UDim2.new(0.95, 0, 0, 60)
+    DRR["TXFrame"].ClipsDescendants = true
 
-    DRR["TX"].Title.Text = titleText
-    DRR["TX"].Description.Text = descriptionText
-    DRR["TX"].TextboxBar.ActualTextbox.TextEditable = false
-    DRR["TX"].TextboxBar.ActualTextbox.ClearTextOnFocus = false
-    DRR["TX"].TextboxBar.ActualTextbox.Text = descriptionText
+    DRR["TXCorner"] = Instance.new("UICorner", DRR["TXFrame"])
+    DRR["TXCorner"].CornerRadius = UDim.new(0, 8)
 
-    DRR["TX"].MouseEnter:Connect(function()
-        local tw = twServ:Create(DRR["TX"], TweenInfo.new(0.2), {Transparency = 0})
+    DRR["TXGrad"] = Instance.new("UIGradient", DRR["TXFrame"])
+    DRR["TXGrad"].Rotation = 90
+    DRR["TXGrad"].Color = ColorSequence.new{
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(60, 60, 60)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(30, 30, 30))
+    }
+
+    DRR["TXTitle"] = Instance.new("TextLabel", DRR["TXFrame"])
+    DRR["TXTitle"].Text = titleText
+    DRR["TXTitle"].TextColor3 = Color3.fromRGB(255, 255, 255)
+    DRR["TXTitle"].BackgroundTransparency = 1
+    DRR["TXTitle"].Font = Enum.Font.GothamBold
+    DRR["TXTitle"].TextSize = 14
+    DRR["TXTitle"].Size = UDim2.new(1, -10, 0.4, 0)
+    DRR["TXTitle"].Position = UDim2.new(0, 5, 0, 5)
+    DRR["TXTitle"].TextXAlignment = Enum.TextXAlignment.Left
+
+    DRR["TXDesc"] = Instance.new("TextBox", DRR["TXFrame"])
+    DRR["TXDesc"].Text = descriptionText
+    DRR["TXDesc"].TextColor3 = Color3.fromRGB(200, 200, 200)
+    DRR["TXDesc"].BackgroundTransparency = 1
+    DRR["TXDesc"].Font = Enum.Font.Gotham
+    DRR["TXDesc"].TextSize = 14
+    DRR["TXDesc"].Size = UDim2.new(1, -10, 0.6, -5)
+    DRR["TXDesc"].Position = UDim2.new(0, 5, 0.4, 0)
+    DRR["TXDesc"].TextXAlignment = Enum.TextXAlignment.Left
+    DRR["TXDesc"].TextYAlignment = Enum.TextYAlignment.Top
+    DRR["TXDesc"].ClearTextOnFocus = false
+    DRR["TXDesc"].TextEditable = false
+    DRR["TXDesc"].MultiLine = true
+
+    DRR["TXFrame"].MouseEnter:Connect(function()
+        local tw = twServ:Create(DRR["TXFrame"], TweenInfo.new(0.2), {BackgroundTransparency = 0.1})
         tw:Play()
     end)
 
-    DRR["TX"].MouseLeave:Connect(function()
-        local tw = twServ:Create(DRR["TX"], TweenInfo.new(0.2), {Transparency = 0.4})
+    DRR["TXFrame"].MouseLeave:Connect(function()
+        local tw = twServ:Create(DRR["TXFrame"], TweenInfo.new(0.2), {BackgroundTransparency = 0})
         tw:Play()
     end)
 
     if callback then
         task.spawn(callback)
     end
-
-    return DRR["TX"]
 end
 
 -- V✧RTX.Library
