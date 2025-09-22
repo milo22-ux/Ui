@@ -1737,15 +1737,18 @@ function UILIB.newTab(name, img)
 		
 	end
 --------------------------------------------
-			function self.newTextbox(name, desc, func)
+function tab.newTextbox(name, desc)
     local newInput = reserved.Textbox:Clone()
-    local textbox = newInput.TextboxBar.ActualTextbox
 
-    newInput.Parent = newTab
+    if newInput.TextboxBar:FindFirstChild("ActualTextbox") then
+        newInput.TextboxBar.ActualTextbox:Destroy()
+    end
+
     newInput.Title.Text = name
     newInput.Description.Text = desc
-    newInput.Visible = true
     newInput.Name = name
+    newInput.Visible = true
+    newInput.Parent = newTab
 
     newInput.MouseEnter:Connect(function()
         local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0 })
@@ -1756,14 +1759,6 @@ function UILIB.newTab(name, img)
         local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0.4 })
         twBtn:Play()
     end)
-
-    if textbox then
-        textbox.FocusLost:Connect(function()
-            if func then
-                func(textbox.Text)
-            end
-        end)
-    end
 			end
 			
 	function self.newDropdown(name, desc, listTable, func)
