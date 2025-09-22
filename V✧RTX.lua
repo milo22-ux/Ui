@@ -1506,8 +1506,13 @@ function self.newTextbox(name, desc)
 
     if newInput:FindFirstChild("TextboxBar") then
         newInput.TextboxBar:Destroy()
-        newInput.Size = UDim2.new(0.97, 0, 0, 50)
     end
+
+    newInput.Size = UDim2.new(0.97, 0, 0, 40)
+    newInput.Title.Position = UDim2.new(0.02, 0, 0, 0)
+    newInput.Title.Size = UDim2.new(0.96, 0, 0.6, 0)
+    newInput.Description.Position = UDim2.new(0.02, 0, 0.55, 0)
+    newInput.Description.Size = UDim2.new(0.96, 0, 0.4, 0)
 
     newInput.MouseEnter:Connect(function()
         local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0 })
