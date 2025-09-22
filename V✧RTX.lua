@@ -1253,9 +1253,48 @@ DRR["92"]["Name"] = [[Description]];
 DRR["92"]["BackgroundTransparency"] = 1;
 DRR["92"]["Position"] = UDim2.new(0.011461318470537663, 0, 0.5852904319763184, 0);
 
--- V✧RTX.Library
-DRR["93"] = Instance.new("ModuleScript", DRR["1"]);
-DRR["93"]["Name"] = [[Library]];
+function tab.newTextbox(titleText, descText)
+    local frame = Instance.new("Frame", DRR["tabParent"])
+    frame.Name = "Textbox"
+    frame.BackgroundColor3 = Color3.fromRGB(40, 45, 62)
+    frame.BorderSizePixel = 0
+    frame.Size = UDim2.new(0.961, 0, 0.12, 0)
+    frame.Position = UDim2.new(0.02, 0, 0.15, 0)
+
+    local title = Instance.new("TextLabel", frame)
+    title.Text = titleText or "Title"
+    title.TextWrapped = true
+    title.TextScaled = true
+    title.BackgroundTransparency = 1
+    title.TextXAlignment = Enum.TextXAlignment.Left
+    title.FontFace = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+    title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    title.Size = UDim2.new(0.96, 0, 0.35, 0)
+    title.Position = UDim2.new(0.02, 0, 0, 0)
+
+    local desc = Instance.new("TextLabel", frame)
+    desc.Text = descText or ""
+    desc.TextWrapped = true
+    desc.TextScaled = true
+    desc.BackgroundTransparency = 1
+    desc.TextXAlignment = Enum.TextXAlignment.Left
+    desc.FontFace = Font.new([[rbxassetid://11702779517]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+    desc.TextColor3 = Color3.fromRGB(255, 255, 255)
+    desc.Size = UDim2.new(0.96, 0, 0.25, 0)
+    desc.Position = UDim2.new(0.02, 0, 0.35, 0)
+
+    local input = Instance.new("TextBox", frame)
+    input.Name = "Input"
+    input.Size = UDim2.new(0.96, 0, 0.35, 0)
+    input.Position = UDim2.new(0.02, 0, 0.65, 0)
+    input.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    input.TextColor3 = Color3.fromRGB(0, 0, 0)
+    input.TextScaled = true
+    input.Text = ""
+    input.ClearTextOnFocus = false
+
+    return frame, input
+end
 
 -- Require DRR wrapper
 local DRR_REQUIRE = require;
