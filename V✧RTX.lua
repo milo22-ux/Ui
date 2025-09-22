@@ -1817,4 +1817,4 @@ return UILIB
 end;
 };
 
-return require(DRR["95"]);
+return DRR_MODULES[DRR["95"]].Closure()
