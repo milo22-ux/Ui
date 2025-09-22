@@ -1253,6 +1253,34 @@ DRR["92"]["Name"] = [[Description]];
 DRR["92"]["BackgroundTransparency"] = 1;
 DRR["92"]["Position"] = UDim2.new(0.011461318470537663, 0, 0.5852904319763184, 0);
 
+-- V✧RTX.Tab.Textbox.Title
+DRR["70"] = Instance.new("TextLabel", DRR["50"])
+DRR["70"]["TextWrapped"] = true
+DRR["70"]["TextScaled"] = true
+DRR["70"]["BackgroundTransparency"] = 1
+DRR["70"]["TextXAlignment"] = Enum.TextXAlignment.Left
+DRR["70"]["FontFace"] = Font.new("rbxassetid://11702779517", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+DRR["70"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+DRR["70"]["Size"] = UDim2.new(0.96, 0, 0.35, 0)
+DRR["70"]["Position"] = UDim2.new(0.02, 0, 0, 0)
+DRR["70"]["Text"] = "Enter Name"
+DRR["70"]["Name"] = "Title"
+
+-- V✧RTX.Tab.Textbox.Description
+DRR["71"] = Instance.new("TextLabel", DRR["50"])
+DRR["71"]["TextWrapped"] = true
+DRR["71"]["TextScaled"] = true
+DRR["71"]["BackgroundTransparency"] = 1
+DRR["71"]["TextXAlignment"] = Enum.TextXAlignment.Left
+DRR["71"]["FontFace"] = Font.new("rbxassetid://11702779517", Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+DRR["71"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+DRR["71"]["Size"] = UDim2.new(0.96, 0, 0.25, 0)
+DRR["71"]["Position"] = UDim2.new(0.02, 0, 0.35, 0)
+DRR["71"]["Text"] = "Type your name here"
+DRR["71"]["Name"] = "Description"
+
+DRR["93"] = Instance.new("ModuleScript", DRR["1"]);
+DRR["93"]["Name"] = [[Library]];
 -- Require DRR wrapper
 local DRR_REQUIRE = require;
 local DRR_MODULES = {};
@@ -1709,7 +1737,34 @@ function UILIB.newTab(name, img)
 		end)
 		
 	end
-	
+--------------------------------------------
+function self.newTextbox(name, desc, func)
+    local newInput = reserved.Textbox:Clone()
+    local textbox = newInput.TextboxBar.ActualTextbox
+
+    newInput.Parent = newTab
+    newInput.Title.Text = name
+    newInput.Description.Text = desc
+    newInput.Visible = true
+    newInput.Name = name
+
+    newInput.MouseEnter:Connect(function()
+        local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0 })
+        twBtn:Play()
+    end)
+
+    newInput.MouseLeave:Connect(function()
+        local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0.4 })
+        twBtn:Play()
+    end)
+
+    textbox.FocusLost:Connect(function()
+        if func then
+            func(textbox.Text)
+        end
+    end)
+			end
+			
 	function self.newDropdown(name, desc, listTable, func)
 		local newdd = reserved.Dropdown:Clone()
 		newdd.Visible = true
