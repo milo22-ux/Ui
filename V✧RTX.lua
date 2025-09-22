@@ -1496,13 +1496,17 @@ function UILIB.newTab(name, img)
 		end
 	end)
 --------------------------------------------
-	function self.newTextbox(name, desc)
+function self.newTextbox(name, desc)
     local newInput = reserved.Textbox:Clone()
     newInput.Parent = newTab
     newInput.Title.Text = name
     newInput.Description.Text = desc
     newInput.Visible = true
     newInput.Name = name
+
+    if newInput:FindFirstChild("TextboxBar") then
+        newInput.TextboxBar:Destroy()
+    end
 
     newInput.MouseEnter:Connect(function()
         local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0 })
