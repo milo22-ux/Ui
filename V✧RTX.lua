@@ -1737,24 +1737,26 @@ function UILIB.newTab(name, img)
 		
 	end
 --------------------------------------------
-function tab.newTextbox(name, desc)
+function self.newTextbox(name, desc)
     local newInput = reserved.Textbox:Clone()
+    local titleLabel = newInput:FindFirstChild("Title")
+    local descLabel = newInput:FindFirstChild("Description")
 
-    if newInput.TextboxBar:FindFirstChild("ActualTextbox") then
-        newInput.TextboxBar.ActualTextbox:Destroy()
-    end
-
-    newInput.Title.Text = name
-    newInput.Description.Text = desc
-    newInput.Name = name
+    newInput.Parent = self.tabFrame
     newInput.Visible = true
-    newInput.Parent = newTab
+    newInput.Name = name
+
+    if titleLabel then
+        titleLabel.Text = name
+    end
+    if descLabel then
+        descLabel.Text = desc
+    end
 
     newInput.MouseEnter:Connect(function()
         local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0 })
         twBtn:Play()
     end)
-
     newInput.MouseLeave:Connect(function()
         local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0.4 })
         twBtn:Play()
