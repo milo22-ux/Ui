@@ -1737,35 +1737,24 @@ function UILIB.newTab(name, img)
 		
 	end
 --------------------------------------------
-function self.newTextbox(name, desc)
-function self.newTextbox(name, desc)
+function tab.newTextbox(name, desc)
     local newInput = reserved.Textbox:Clone()
-    local titleLabel = newInput:FindFirstChild("Title")
-    local descLabel = newInput:FindFirstChild("Description")
-
-    newInput.Parent = newTab
+    newInput.Parent = tab._newTab or newTab
+    newInput.Title.Text = name
+    newInput.Description.Text = desc
     newInput.Visible = true
     newInput.Name = name
-
-    if titleLabel then
-        titleLabel.Text = name
-    end
-    if descLabel then
-        descLabel.Text = desc
-    end
-
-    newInput.Position = UDim2.new(0, 0, 0, #newTab:GetChildren() * 50) 
-    newInput.Size = UDim2.new(1, -10, 0, 50) 
 
     newInput.MouseEnter:Connect(function()
         local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0 })
         twBtn:Play()
     end)
+
     newInput.MouseLeave:Connect(function()
         local twBtn = twServ:Create(newInput, TweenInfo.new(0.2), { Transparency = 0.4 })
         twBtn:Play()
     end)
-				end
+			end
 			
 	function self.newDropdown(name, desc, listTable, func)
 		local newdd = reserved.Dropdown:Clone()
