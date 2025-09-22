@@ -1737,7 +1737,7 @@ function UILIB.newTab(name, img)
 		
 	end
 --------------------------------------------
-function tab.newTextbox(name, desc, func)
+			function self.newTextbox(name, desc, func)
     local newInput = reserved.Textbox:Clone()
     local textbox = newInput.TextboxBar.ActualTextbox
 
