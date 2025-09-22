@@ -1253,6 +1253,37 @@ DRR["92"]["Name"] = [[Description]];
 DRR["92"]["BackgroundTransparency"] = 1;
 DRR["92"]["Position"] = UDim2.new(0.011461318470537663, 0, 0.5852904319763184, 0);
 
+function self.newTextbox(titleText, descriptionText, callback)
+    local DRR = {}
+
+    DRR["TX"] = reserved.Textbox:Clone()
+    DRR["TX"].Parent = newTab
+    DRR["TX"].Visible = true
+    DRR["TX"].Name = titleText
+
+    DRR["TX"].Title.Text = titleText
+    DRR["TX"].Description.Text = descriptionText
+    DRR["TX"].TextboxBar.ActualTextbox.TextEditable = false
+    DRR["TX"].TextboxBar.ActualTextbox.ClearTextOnFocus = false
+    DRR["TX"].TextboxBar.ActualTextbox.Text = descriptionText
+
+    DRR["TX"].MouseEnter:Connect(function()
+        local tw = twServ:Create(DRR["TX"], TweenInfo.new(0.2), {Transparency = 0})
+        tw:Play()
+    end)
+
+    DRR["TX"].MouseLeave:Connect(function()
+        local tw = twServ:Create(DRR["TX"], TweenInfo.new(0.2), {Transparency = 0.4})
+        tw:Play()
+    end)
+
+    if callback then
+        task.spawn(callback)
+    end
+
+    return DRR["TX"]
+end
+
 -- V✧RTX.Library
 DRR["93"] = Instance.new("ModuleScript", DRR["1"]);
 DRR["93"]["Name"] = [[Library]];
