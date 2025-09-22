@@ -1757,11 +1757,13 @@ function self.newTextbox(name, desc, func)
         twBtn:Play()
     end)
 
-    textbox.FocusLost:Connect(function()
-        if func then
-            func(textbox.Text)
-        end
-    end)
+    if textbox then
+        textbox.FocusLost:Connect(function()
+            if func then
+                func(textbox.Text)
+            end
+        end)
+    end
 			end
 			
 	function self.newDropdown(name, desc, listTable, func)
