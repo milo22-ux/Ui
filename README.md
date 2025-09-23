@@ -144,6 +144,13 @@ end)
 
 **Argument 5: Function to execute (return: int) (type: `function`)**
 
+### Textbox
+add textboxes, witch is both easy for moblie and easy for pc
+
+```lua
+tab.newTextbox("Enter Name", "Type your name here")
+```
+
 ## Built-in UI Features
 
 We also provide features to toggle the UI, change the theme, and more.
