@@ -1,212 +1,130 @@
 # V✧RTX UI Library
 
-Introducing the V✧RTX UI Library, a Roblox Exploit UI Library created just for fun! Feel free to modify it as you wish, and using our library has already helped us a lot!
+The **V✧RTX UI Library** is a sleek Roblox exploit UI library with full PC + mobile support, draggable windows, transparency, and rounded corners.  
+Toggles use a `#` prefix that lights up when activated. Everything is easy to use and designed to be smooth and modern.  
+
+---
 
 ## Getting Started
 
-To begin, you need to declare a variable to access the library.
+To begin, load the library:
 
 ```lua
-local VortrxLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/milo22-ux/Ui/refs/heads/main/V%E2%9C%A7RTX.lua"))()
+local VortrxLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourname/repo/main/V✧RTX.lua"))()
 ```
 
-To load the UI, simply call the function:
+Then create your UI:
 
 ```lua
 local window = VortrxLibrary:Load("V✧RTX", "default")
 ```
 
-**Argument 1: Name of your UI (type: `string`)**
+**Argument 1**: Title of your UI (type: `string`)  
+**Argument 2**: Image ID or `"default"` to use the default logo (type: `string`)  
 
-**Argument 2: The Image ID; setting it to "Default" will use the default UI Logo (type: `string`)**
+---
 
-## Implementing Features
+## Features
 
-We provide pre-made features for your convenience.
+### Tabs
 
-### Tab
-
-You can create multiple tabs to organize your features.
+Organize features into tabs:
 
 ```lua
-local tab = VortrxLibrary.newTab("My Tab", "ImageIdHere")
+local tab = VortrxLibrary.newTab("Main", "ImageIdHere")
 ```
 
-**Argument 1: Name of your tab (type: `string`)**
+---
 
-**Argument 2: The Image ID (type: `string`)**
+### Buttons
 
-### Button
-
-Create functional buttons with ease!
+Create rounded buttons:
 
 ```lua
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
+tab.newButton("Say Hello", "Prints Hello!", function()
+    print("Hello!")
 end)
 ```
 
-**Argument 1: Name of the Button (type: `string`)**
+---
 
-**Argument 2: Description of the button (type: `string`)**
+### Toggles
 
-**Argument 3: Function to execute when the button is clicked (type: `function`)**
-
-### Toggle
-
-Use toggles that can be turned on or off.
+Toggles display as `# Name` and light up when turned on:
 
 ```lua
-tab.newToggle("Toggle", "Toggle! (prints the state)", true, function(toggleState)
-    if toggleState then
-        print("On")
+tab.newToggle("Auto Farm", "Toggle farming on/off", false, function(state)
+    if state then
+        print("Auto Farm ON")
     else
-        print("Off")
+        print("Auto Farm OFF")
     end
 end)
 ```
 
-**Argument 1: Name (type: `string`)**
+---
 
-**Argument 2: Description (type: `string`)**
+### Dropdowns
 
-**Argument 3: Default toggle state (type: `boolean`)**
-
-**Argument 4: Function to execute (return: `bool`) (type: `function`)**
-
-### Input Text
-
-Get input text from the user.
+Let the user choose from a list:
 
 ```lua
-tab.newInput("Input", "Prints your input.", function(text)
-    print("Entered text: " .. text)
+tab.newDropdown("Select Pet", "Pick a pet", {"Dog", "Cat", "Dragon"}, function(selected)
+    print("You chose:", selected)
 end)
 ```
 
-**Argument 1: Name/Title (type: `string`)**
+---
 
-**Argument 2: Description  (type: `string`)**
+### Sliders
 
-**Argument 3: Function to execute (type: `function`)**
-
-## Dropdown
-
-Create dropdown menus easily.
+Rounded sliders that work on both PC and mobile:
 
 ```lua
-tab.newDropdown("Dropdown", "Select one of these options!", {"water", "dog", "air", "bb", "airplane", "wohhho", "yeay", "delete"}, function(selectedOption)
-    print(selectedOption)
+tab.newSlider("Walk Speed", "Adjust your speed", 200, false, function(value)
+    print("Speed set to:", value)
 end)
 ```
 
-**Argument 1: Name/Title (type: `string`)**
+---
 
-**Argument 2: Description  (type: `string`)**
+### Textboxes
 
-**Argument 3: Table listing the options (type: `table`)**
-
-**Argument 4: Function to execute, returns the selected option inside the table (return: string) (type: `function`)**
-
-### Keybind
-
-Get user input when the keybind button is clicked.
-
-```lua
-tab.newKeybind("Input Key", "Press the key to start; it will be printed out.", function(key)
-    print(key)
-end)
-```
-
-**Argument 1: Name/Title (type: `string`)**
-
-**Argument 2: Description  (type: `string`)**
-
-**Argument 3: Function to execute (return: input) (type: `function`)**
-
-### Slider
-
-Add sliders, which work well for mobile users too!
-
-```lua
-tab.newSlider("Slider", "slider", 1000, false, function(num)
-    print(num)
-end)
-```
-
-**Argument 1: Name/Title (type: `string`)**
-
-**Argument 2: Description  (type: `string`)**
-
-**Argument 3: Maximum value for the slider (type: `int`)**
-
-**Argument 4: Set to `false` for now (type: `boolean`)**
-
-**Argument 5: Function to execute (return: int) (type: `function`)**
-
-### Textbox
-add textboxes, witch is both easy for moblie and easy for pc
+Lightweight textbox input:
 
 ```lua
 tab.newTextbox("Enter Name", "Type your name here")
 ```
 
-## Built-in UI Features
+---
 
-We also provide features to toggle the UI, change the theme, and more.
-
-### Toggle UI
-
-To toggle the UI, use the following:
+## Example Usage
 
 ```lua
-window:Toggle()
+local VortrxLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourname/repo/main/V✧RTX.lua"))()
+local window = VortrxLibrary:Load("V✧RTX", "default")
+
+local mainTab = VortrxLibrary.newTab("Main", "rbxassetid://123456")
+
+mainTab.newButton("Say Hello", "Prints Hello!", function()
+    print("Hello!")
+end)
+
+mainTab.newToggle("Auto Farm", "Toggle farming on/off", false, function(state)
+    print("Auto Farm:", state and "ON" or "OFF")
+end)
+
+mainTab.newDropdown("Pets", "Choose one", {"Dog", "Cat", "Dragon"}, function(selected)
+    print("Pet:", selected)
+end)
+
+mainTab.newSlider("Walk Speed", "Adjust speed", 200, false, function(val)
+    print("Speed set to:", val)
+end)
+
+mainTab.newTextbox("Enter Name", "Type your name here")
 ```
 
-### Open UI
+---
 
-To open the UI, simply use:
-
-```lua
-window:Open()
-```
-
-### Close UI
-
-To close the UI, you can use:
-
-```lua
-window:Close()
-```
-
-### Hide UI
-
-To hide the UI, use:
-
-```lua
-window:Hide()
-```
-
-### Unhide/Show UI
-
-To show the UI, use:
-
-```lua
-window:Show()
-```
-
-### Customize Theme
-
-You can customize the theme colors with two accent colors.
-
-```lua
-local mainColor = Color3.fromRGB(10, 30, 10) -- Customize as you wish; these are in RGB format. (mainColor applies to main colors like background, buttons, etc.)
-
-local secondColor = Color3.fromRGB(50, 50, 10) -- Secondary Color; applies to Toggle when activated and slider background.
-
-window:SetTheme(mainColor, secondColor)
-```
-
-**Argument 1: Main Color, background, button color, etc. (type: `Color3`)**
-
-**Argument 2: Secondary Color, toggle when activated, slider color background. (type: `Color3`)**
+✨ That’s the full feature set for **V✧RTX UI Library**!
